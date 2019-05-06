@@ -1,2 +1,2 @@
 # iTable
-OpenTable mX
+OpenTable MX
