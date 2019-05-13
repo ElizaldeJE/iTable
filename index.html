@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>iTable</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 class="title">iTable</h1>
+    <h2>Reservation</h2>
+    <form>
+      <select name="date" id="date">
+        <option value="today">Today</option>
+      </select>
+      <select name="time" id="time">
+        <option value="07:00">07:00 am</option>
+      </select>
+      <select name="guest" id="guests">
+        <option value="2">2 guests</option>
+      </select>
+      <input type="text" placeholder="Restaurant" />
+      <input type="button" value="Search">
+    </form>
+    <picture>
+      <source media="(min-width: 650px)" srcset="itablemain.jpg">
+      <img src="itablemain.jpg" alt="Main image of a hostess" class="main-image">
+    </picture>
+  </main>
+  <footer>
+    copyright 2019
+  </footer>
+</body>
+
+</html>
